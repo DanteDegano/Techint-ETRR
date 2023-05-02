@@ -1,0 +1,34 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_footer";
+@import "_swippers_especificos";
+@import "_modulo1";
+@import "_volanta";
+@import "_modulo_resumido_la_voz_de_los_protagonistas";
+@import "_modulo4";
+ 
+.nuestro_equipo{
+    & .padding_main{
+        padding-top: 99px;
+    }
+    & .modulo4.profesionales{
+        margin-bottom: 0;
+        &.alternativo{
+            margin-bottom: 100px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    .nuestro_equipo{
+        & .padding_main{
+            padding-top: 118px;
+        }
+        & .modulo1{
+            margin-bottom: 0;
+        }
+    }
+}

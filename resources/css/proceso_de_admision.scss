@@ -1,0 +1,25 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_footer";
+@import "_modulo1";
+@import "_modulo4";
+@import "_modulo7";
+@import "_modulo_preguntas_frecuentes";
+@import "_swippers_especificos";
+@import "_modulo_descargas";
+
+.proceso_de_admision{
+    & .padding_main{
+        padding-top: 99px;
+    } 
+}
+
+@media only screen and (min-width: 1024px){
+
+    .proceso_de_admision{
+        & .padding_main{
+            padding-top: 118px;
+        }
+    }
+} 

@@ -1,0 +1,40 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_modulo1";
+@import "_modulo4";
+@import "_modulo7";
+@import "_modulo3";
+@import "_volanta";
+@import "modulo_video";
+@import "_footer";
+ 
+.practicas_profesionalizantes{
+    & .padding_main{
+        padding-top: 99px;
+    }
+    .volanta_box{
+        margin-bottom: 30px;
+    }
+    .modulo_volantas{
+        margin-bottom: 70px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+
+    .practicas_profesionalizantes{
+        & .padding_main{
+            padding-top: 118px;
+        }
+        .modulo7{
+            &_info{
+                padding-top: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+}

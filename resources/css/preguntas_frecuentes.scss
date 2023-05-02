@@ -1,0 +1,23 @@
+@import "_generales";
+@import "_header";
+@import "_menu";
+@import "_footer";
+@import "_modulo_preguntas_frecuentes";
+ 
+.preguntas_frecuentes_page{
+    &_title{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .padding_main{
+       padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .preguntas_frecuentes_page{
+        .padding_main{
+           padding-top: 80px;
+        }
+    }
+}
